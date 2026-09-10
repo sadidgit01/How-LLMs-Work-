@@ -91,4 +91,5 @@ flowchart TD
 - **Added an "Output Projection + Sampling" step** between the transformer layers and post-processing, since converting final hidden states into an actual next token (linear layer → softmax → sampling) is a distinct step that was previously skipped.
 - **Tokenizer / Embed / Position** are grouped as a "Model-Serving Layer," separate from the API Gateway, since they're part of model input preparation rather than generic backend infrastructure.
 
-> This diagram uses [Mermaid](https://mermaid.js.org/), which GitHub renders natively — just keep this file as `README.md` (or embed the code block in any README) and it will display as a diagram automatically.
+
+<img width="940" height="1672" alt="system-workflow" src="https://github.com/user-attachments/assets/8436d255-7709-4e63-a19e-bfe7f2cebbdc" />
