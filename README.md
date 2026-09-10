@@ -1,7 +1,18 @@
 # LLM Workflow
 
-From input to output — step by step.
+This repo has two companion pieces, each answering a different question:
 
+- **`index.html`** — *What does a language model actually do to my text?*
+  An educational, interactive walkthrough of the model-internal pipeline: tokenization, embeddings, attention, and sampling.
+
+- **This README (below)** — *How does a request flow through a production system serving an LLM?*
+  An engineering/ops reference diagram: load balancers, caching, monitoring, and the infrastructure around the model.
+
+---
+
+## System Workflow
+
+From input to output — step by step.
 ```mermaid
 flowchart TD
     User["👤 User / Client<br/><small>Web app / Browser / API / Other clients<br/>(text input)</small>"]
