@@ -92,4 +92,9 @@ flowchart TD
 - **Tokenizer / Embed / Position** are grouped as a "Model-Serving Layer," separate from the API Gateway, since they're part of model input preparation rather than generic backend infrastructure.
 
 
-<img width="940" height="1672" alt="system-workflow" src="https://github.com/user-attachments/assets/8436d255-7709-4e63-a19e-bfe7f2cebbdc" />
+
+
+---
+
+<img width="1024" height="1536" alt="LLM-Workflow" src="https://github.com/user-attachments/assets/1ee155b3-bd70-4a0a-bbd7-c4e49393e547" />
+
