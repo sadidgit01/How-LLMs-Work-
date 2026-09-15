@@ -95,6 +95,11 @@ flowchart TD
 
 
 ---
+How LLMs Work : How an LLM actually generates tokens. Explains the inside/core mechanics of an LLM, including multimodal input → Transformer → next-token prediction → generation loop.
+<img width="1312" height="1199" alt="hllw1" src="https://github.com/user-attachments/assets/476c35a0-195c-4765-a651-1c3158650d35" />
 
-<img width="1024" height="1536" alt="LLM-Workflow" src="https://github.com/user-attachments/assets/1ee155b3-bd70-4a0a-bbd7-c4e49393e547" />
+
+LLM Pipeline with RAG : How we build a real LLM-powered application around that LLM.Explains the whole production application architecture around an LLM: API, load balancer, RAG, database, cache, external services, etc.
+<img width="1024" height="1536" alt="hllmw2" src="https://github.com/user-attachments/assets/cf3b4063-87ec-47ba-adb5-14d2d7dd10ca" />
+
 
