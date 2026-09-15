@@ -100,6 +100,11 @@ flowchart TD
 <img width="1312" height="1199" alt="hllw1" src="https://github.com/user-attachments/assets/476c35a0-195c-4765-a651-1c3158650d35" />
 
 
+
+
+
+
+---
 **LLM Pipeline with RAG : How we build a real LLM-powered application around that LLM.** Explains the whole production application architecture around an LLM: API, load balancer, RAG, database, cache, external services, etc.
 
 
